@@ -1,27 +1,28 @@
 ```
-Agis en tant qu'expert en ingénierie pédagogique et transcription documentaire de haut niveau. J'ai besoin d'une transcription intégrale, ultra-fidèle et complétée pédagogiquement de ma source intitulée :
-[NOM_DE_LA_SOURCE].
+Agis en tant qu'expert en ingénierie pédagogique, transcripteur de haut niveau et tuteur universitaire. J'ai besoin d'une transcription fidèle, corrigée et enrichie pédagogiquement de ma source intitulée : **[NOM_DE_LA_SOURCE, ex: Psycho_1]**.
 
-Je veux que tu traites précisément les pages suivantes :
-[PLAGE_DE_PAGES].
+Je veux que tu traites précisément la plage suivante : **[PLAGE_DE_PAGES, ex: de la diapositive 1 à 40]**.
 
-Pour chaque diapositive/page de cette plage, tu dois générer un rendu structuré dans un fichier au format Markdown (.md) enregistré dans mon espace de travail, en respectant STRICTEMENT le cahier des charges suivant :
+Pour chaque diapositive/page, génère un rendu structuré dans un fichier Markdown (.md) enregistré dans mon espace de travail, en respectant STRICTEMENT le cahier des charges suivant :
 
-1. Transcription Textuelle & Détection des Gaps `[...]` :
-   - Réécris l'intégralité du contenu textuel de la diapositive (titres, listes, paragraphes).
-   - ATTENTION - Règle des crochets : Dès que tu rencontres un mot ou une phrase entre crochets (par exemple : `[dualismes de Descartes]` ou `[limites de l'introspection]`), cela signifie que cette partie est incomplète dans le support d'origine. Tu dois obligatoirement la compléter. 
-   - Développe le concept manquant de façon claire, complète et scientifiquement exacte en te basant sur le contexte du cours.
-   - Pour que je puisse repérer facilement tes ajouts, écris ces complétions en gras italique et précède-les de la mention suivante : [Complété par l'IA : ...].
+1. **Transcription Textuelle & Analyse des Notes Personnelles `[...]`** :
+   - Transcris fidèlement tout le texte d'origine présent sur la diapositive.
+   - **ATTENTION - Règle d'or pour les crochets `[...]`** : Les éléments que j'ai ajoutés entre crochets sont des notes personnelles rapides, des questions ou des hypothèses de ma part. Elles peuvent être incomplètes, scientifiquement imprécises, voire carrément fausses ou mal placées. Ton rôle est d'analyser cette note avec un œil critique de professeur :
+     1. **Vérification** : Fact-checke ma note. Si elle contient une erreur ou une approximation, corrige-la gentiment.
+     2. **Contextualisation** : Si ma note semble déconnectée du sujet principal de la diapo, explique sa véritable place dans le cours.
+     3. **Développement pédagogique** : Développe le concept de manière ultra-claire et détaillée, comme si tu l'expliquais à un étudiant qui a des difficultés à le comprendre. Décompose les notions complexes.
+   - Pour que je repère immédiatement tes corrections et explications, mets-les en gras et en italique sous cette forme :
+     ***[Tuteur IA - Correction & Explication de votre note : <insère ici ta correction bienveillante, ton explication claire et ton développement détaillé>]***.
 
-2. Description Visuelle Analytique :
-   - Pour chaque image, photo, graphique, portrait ou schéma, rédige une description visuelle détaillée.
-   - Précise la composition, les éléments représentés, et explique la fonction pédagogique de l'image (ce qu'elle cherche à illustrer par rapport au texte).
-   - Si une diapositive ne contient aucun élément graphique, indique simplement : "Visuel : Présentation textuelle uniquement".
+2. **Description Visuelle Analytique** :
+   - Pour chaque image, graphique, schéma ou portrait, rédige une description visuelle détaillée.
+   - Explique le lien pédagogique entre l'image et le texte de la diapositive (pourquoi cette image est là et ce qu'elle apporte à la compréhension).
+   - Si aucun visuel n'est présent, indique : "Visuel : Présentation textuelle uniquement".
 
-3. Formatage et Structure du fichier final :
-   - Organise le document de manière séquentielle, diapositive par diapositive (ex: "## Diapositive X : [Titre de la Diapositive]").
-   - Sépare clairement la section "Transcription (avec complétions)" et la section "Description Visuelle" à l'aide de sous-titres.
-   - Ne fais aucun résumé paresseux, réécris et développe tout ce qui est nécessaire.
+3. **Formatage et Structure** :
+   - Structure diapositive par diapositive (ex: "## Diapositive X : [Titre]").
+   - Sépare clairement la section "📝 Transcription et Analyse" et la section "🎨 Description Visuelle".
+   - Ne fais aucun résumé paresseux des concepts officiels du cours.
 
 Génère ce travail directement sous la forme d'un fichier Markdown (.md) bien mis en forme dans mon Studio d'artéfacts.
 ```
