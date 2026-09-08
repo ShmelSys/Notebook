@@ -28,3 +28,26 @@ Pour chaque diapositive/page, génère un rendu structuré dans un fichier Markd
 
 Génère ce travail directement sous la forme d'un fichier Markdown (.md) bien mis en forme dans mon Studio d'artéfacts.
 ```
+
+
+```
+Agis en tant que spécialiste des sciences cognitives et de la mémorisation active. Ton objectif est de concevoir mon kit de révision sur la base de deux documents de référence pour éviter toute hallucination :
+- Ma source brute d'origine : **[NOM_DE_LA_SOURCE_BRUTE, ex: psycho_1.pdf]**
+- Mon cours de référence déjà généré : **[NOM_DU_FICHIER_GÉNÉRÉ_AU_PROMPT_1, ex: cours_reference_psycho_1_diapos_1_40.md]**
+
+En croisant rigoureusement ces deux fichiers, réalise les livrables suivants :
+
+1. **Le Fichier d'Importation Anki (.txt)** :
+   - Génère un fichier nommé `anki_[NOM_DE_LA_SOURCE].txt` au format officiel Anki (séparateur : TABULATION).
+   - Conçois des flashcards (recto/verso) courtes, percutantes et ciblées sur les notions clés, définitions, dates, chercheurs et structures vus dans les deux fichiers.
+   - Chaque ligne doit être structurée ainsi : [Question] -> [TABULATION] -> [Réponse].
+
+2. **Le Schéma de Révision Muet (.png)** :
+   - Identifie le schéma visuel ou anatomique le plus important de cette section (ex: le cerveau, les aires du langage, etc.).
+   - Génère une version simplifiée et épurée de ce schéma où les légendes textuelles sont effacées et remplacées par des numéros (1, 2, 3...). Nomme l'image `schema_muet_[NOM_DE_LA_SOURCE].png`.
+
+3. **Le Cahier d'Exercice & Corrigé (.pdf)** :
+   - Génère un document PDF d'exercice élégant nommé `cahier_revision_[NOM_DE_LA_SOURCE].pdf`.
+   - **Page 1 : L'exercice** (Le schéma muet avec des lignes blanches numérotées pour que je puisse m'auto-évaluer à l'écrit).
+   - **Page 2 : Le corrigé détaillé** (Une table contenant le numéro, le nom de la structure/concept, son rôle précis dans le cours et pourquoi il est important d'après nos deux fichiers de référence).
+```
